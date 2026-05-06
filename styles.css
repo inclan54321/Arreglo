@@ -191,7 +191,7 @@ body {
 
 
 
-/* Botón de categorías con imagen invisible */
+/* Botón de categorías - escala como MATCH */
 .btn-categoria {
     background: none;
     border: none;
@@ -208,7 +208,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    opacity: 0;
+    opacity: 0; /* Imagen invisible, solo para escalar */
 }
 
 .btn-categoria span {
@@ -221,6 +221,11 @@ body {
     font-size: clamp(12px, 3vw, 20px);
     font-weight: 900;
     color: #00ffee;
-    text-shadow: 0 0 10px rgba(0,255,238,0.75);
+    text-shadow: 0 0 8px rgba(0,255,238,0.8);
+    white-space: nowrap;
     pointer-events: none;
+}
+
+#catBtn2 {
+    /* Este selector ya no debe tener estilos, solo usa .btn-categoria */
 }
