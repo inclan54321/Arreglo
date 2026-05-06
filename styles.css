@@ -193,7 +193,7 @@ body {
     position: absolute;
     bottom: 20px;
     left: 50%;
-    transform: translateX(-50%) scale(1.25);
+    transform: translateX(-50%);
     padding: 14px 20px;
     font-size: 1.25rem;
     font-weight: 900;
@@ -209,6 +209,7 @@ body {
     text-shadow: 0 0 10px rgba(0,255,238,0.75), 0 0 22px rgba(0,255,238,0.35);
     backdrop-filter: blur(10px);
     cursor: pointer;
+    white-space: nowrap;
     z-index: 10;
 }
 
@@ -218,5 +219,5 @@ body {
 }
 
 #catBtn2:active {
-    transform: translateX(-50%) scale(1.20);
+    transform: translateX(-50%) scale(0.95);
 }
