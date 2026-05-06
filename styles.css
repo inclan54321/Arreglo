@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+
+.todo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.todo img:first-child {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn-match {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    width: 15%;
+}
+
+.btn-match img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
