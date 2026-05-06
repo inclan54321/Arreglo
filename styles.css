@@ -33,9 +33,7 @@ body {
     cursor: pointer;
     padding: 0;
     position: absolute;
-    width: 12%;
-    min-width: 60px;
-    max-width: 180px;
+    width: 15%; /* Mismo tamaño para todos */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -64,12 +62,9 @@ body {
     }
     
     .btn-match {
-        width: 20%;
-        min-width: 50px;
-        max-width: 120px;
+        width: 15%; /* Mismo porcentaje que en PC */
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        position: absolute;
     }
 }
