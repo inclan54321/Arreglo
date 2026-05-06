@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: contain;
 }
 
 .btn-match {
@@ -31,11 +33,43 @@ body {
     cursor: pointer;
     padding: 0;
     position: absolute;
-    width: 15%;
+    width: 12%;
+    min-width: 60px;
+    max-width: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn-match img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+/* Solo para móviles - imagen pega arriba */
+@media (max-width: 768px) {
+    body {
+        align-items: flex-start;
+    }
+    
+    .todo {
+        align-items: flex-start;
+    }
+    
+    .todo img:first-child {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .btn-match {
+        width: 20%;
+        min-width: 50px;
+        max-width: 120px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
 }
