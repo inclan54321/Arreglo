@@ -2,56 +2,56 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATCH</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="todo">
         <img src="assets/fondo.jpg" alt="fondo">
-        
-        <!-- Botón MATCH -->
         <button class="btn-match" id="btnMatch">
             <img src="assets/match.png" alt="MATCH">
         </button>
-        
-        <!-- Botón de inicio -->
-        <img src="assets/marca.png" id="homeBtn" class="home-btn" title="Inicio" alt="Inicio" />
-        
-        <!-- Buscador -->
-        <div class="search-bar-wrap">
-            <input type="text" class="search-input" placeholder="Buscador IA" autocomplete="off" />
-            <button class="search-btn">🔍</button>
-        </div>
-        
-        <!-- Selector de idioma -->
-        <div class="language-selector">
-            <button id="langBtn" class="lang-btn">
-                <span id="langText">ES</span>
-                <span class="lang-dropdown hidden">
-                    <a href="#" data-lang="es">Español</a>
-                    <a href="#" data-lang="en">English</a>
-                </span>
-            </button>
-        </div>
-        
-        <!-- Favoritos -->
-        <button id="favBtn" class="fav-btn" title="Favoritos" aria-label="Favoritos">
-            <svg viewBox="0 0 24 24" width="20" height="20">
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
-            </svg>
-        </button>
-        
-        <!-- Carrito -->
-        <button id="cartBtn" class="cart-btn" title="Carrito" aria-label="Carrito">
-            <svg viewBox="0 0 24 24" width="20" height="20">
-                <path d="M7.2 6h14.1c.6 0 1 .6.8 1.2l-1.6 6.4c-.2.5-.6.8-1.1.8H8.1L7.7 16h11.8v2H7c-.6 0-1-.6-.8-1.2L7 13 5 4H2V2h4c.5 0 .9.3 1 .8L7.2 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2z" fill="currentColor"/>
-            </svg>
-        </button>
-        
-        <!-- Botón categorías -->
-        <button id="catBtn2">Categorías</button>
     </div>
+
+    <!-- Botón de inicio -->
+    <img src="assets/marca.png" id="homeBtn" class="home-btn" title="Inicio" alt="Inicio" />
+
+    <!-- Selector de idioma -->
+    <div class="language-selector">
+        <button id="langBtn" class="lang-btn">
+            <span id="langText">ES</span>
+            <span class="lang-dropdown hidden">
+                <a href="#" data-lang="es">Español</a>
+                <a href="#" data-lang="en">English</a>
+            </span>
+        </button>
+    </div>
+
+    <!-- Favoritos -->
+    <button id="favBtn" class="fav-btn" title="Favoritos" aria-label="Favoritos">
+        <svg viewBox="0 0 24 24" width="20" height="20">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+        </svg>
+    </button>
+
+    <!-- Carrito -->
+    <button id="cartBtn" class="cart-btn" title="Carrito" aria-label="Carrito">
+        <svg viewBox="0 0 24 24" width="20" height="20">
+            <path d="M7.2 6h14.1c.6 0 1 .6.8 1.2l-1.6 6.4c-.2.5-.6.8-1.1.8H8.1L7.7 16h11.8v2H7c-.6 0-1-.6-.8-1.2L7 13 5 4H2V2h4c.5 0 .9.3 1 .8L7.2 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2z" fill="currentColor"/>
+        </svg>
+    </button>
+
+    <!-- Buscador -->
+    <div class="search-bar-wrap">
+        <input type="text" class="search-input" placeholder="Buscador IA" autocomplete="off" />
+        <button class="search-btn">🔍</button>
+    </div>
+
+  
+
     <script src="app.js"></script>
+        <!-- Botón grande de categorías -->
+    <button id="catBtn2" class="menu-barra-btn">Categorías</button>
 </body>
 </html>
